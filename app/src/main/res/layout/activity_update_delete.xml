@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/yellow"
+    android:layout_height="match_parent"
+    tools:context=".UpdateDelete">
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="210dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="55dp"
+        android:background="@color/skyblue"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sno"
+        app:layout_constraintBottom_toTopOf="@+id/et5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="209dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="61dp"
+        android:background="@color/skyblue"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sname"
+        app:layout_constraintBottom_toTopOf="@+id/et6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et4" />
+
+    <EditText
+        android:id="@+id/et6"
+        android:layout_width="214dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="37dp"
+        android:background="@color/skyblue"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sage"
+        app:layout_constraintBottom_toTopOf="@+id/BtnLog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et5" />
+
+    <Button
+        android:id="@+id/BtnUpdate"
+        android:layout_width="331dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#F44336"
+        android:text="Update"
+        app:layout_constraintBottom_toTopOf="@+id/BtnR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et6" />
+
+    <Button
+        android:id="@+id/BtnDelete"
+        android:layout_width="331dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="172dp"
+        android:backgroundTint="#F44336"
+        android:text="Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnLog" />
+
+    <Button
+        android:id="@+id/BtnLogout"
+        android:layout_width="331dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="92dp"
+        android:backgroundTint="#F44336"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnR" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
